@@ -17,10 +17,7 @@ require("dotenv").config();
 //     })
 //   })
 
-// const search = instantsearch({
-//   indexName: 'test-nba-players',
-//   searchClient: algoliasearch('W1CE17ZMDH', 'ef87e34ea5d13312275d629ab39e9666'),
-// });
+
 
 const search = instantsearch({
   indexName: 'test-nba-players',
