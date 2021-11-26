@@ -1,6 +1,6 @@
-# getting-started
+# About This App
 
-_This project was generated with [create-instantsearch-app](https://github.com/algolia/create-instantsearch-app) by [Algolia](https://algolia.com)._
+_This project aims to help users to check facts on NBA such as player's name, team or points_
 
 ## Get started
 
