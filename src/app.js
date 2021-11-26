@@ -1,5 +1,5 @@
 /* global instantsearch algoliasearch */
-
+require("dotenv").config();
 
 // import algoliasearch from 'algoliasearch'
 
@@ -17,9 +17,14 @@
 //     })
 //   })
 
+// const search = instantsearch({
+//   indexName: 'test-nba-players',
+//   searchClient: algoliasearch('W1CE17ZMDH', 'ef87e34ea5d13312275d629ab39e9666'),
+// });
+
 const search = instantsearch({
   indexName: 'test-nba-players',
-  searchClient: algoliasearch('W1CE17ZMDH', '5bb6dc525c2b3c48c00dbb700cc98cf1'),
+  searchClient: algoliasearch(process.env.applicationid, process.env.ALGOLIA_API_KEY),
 });
 
 search.addWidgets([
