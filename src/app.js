@@ -45,7 +45,7 @@ search.addWidgets([
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "team" }{{/helpers.highlight}}
           </div>
-          <div class="hit-price">\$€{{price}}</div>
+          <div class="hit-points">\Points: {{points}}</div>
         </div>
       `,
     },
