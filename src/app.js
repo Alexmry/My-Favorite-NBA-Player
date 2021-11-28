@@ -31,7 +31,7 @@ search.addWidgets([
     container: '#clear-refinements',
   }),
   instantsearch.widgets.refinementList({
-    container: document.querySelector('#team-list'), 
+    container: '#team-list', 
     attribute: 'team',
   }),
   instantsearch.widgets.hits({
