@@ -7,6 +7,17 @@ const search = instantsearch({
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
+    placeholder: 'Search a player, team or points',
+  }),
+  instantsearch.widgets.stats({
+    container: "#stats",
+    templates: {
+      body(hit) {
+        return `<span role="img" aria-label="emoji">⚡️</span> <strong>${hit.nbHits}</strong> results found ${
+          hit.query != "" ? `for <strong>"${hit.query}"</strong>` : ``
+        } in <strong>${hit.processingTimeMS}ms</strong>`;
+      }
+    }
   }),
   instantsearch.widgets.clearRefinements({
     container: '#clear-refinements',
