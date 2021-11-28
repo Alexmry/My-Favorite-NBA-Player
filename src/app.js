@@ -15,6 +15,8 @@ search.addWidgets([
     container: '#team-list', 
     attribute: 'team',
     showMore: true,
+    searchable: true,
+    searchablePlaceholder: 'Search a team',
   }),
   instantsearch.widgets.numericMenu({
     container: '#numeric-menu',
