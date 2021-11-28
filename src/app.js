@@ -34,6 +34,16 @@ search.addWidgets([
     container: '#team-list', 
     attribute: 'team',
   }),
+  instantsearch.widgets.numericMenu({
+    container: '#numeric-menu',
+    attribute: 'points',
+    items: [
+      { label: 'All' },
+      { label: 'Less than 500', end: 500 },
+      { label: 'Between 500 - 1000', start: 500, end: 1000 },
+      { label: 'More than 1000', start: 1000 },
+    ],
+  }),
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
