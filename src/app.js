@@ -39,9 +39,11 @@ search.addWidgets([
     attribute: 'points',
     items: [
       { label: 'All' },
-      { label: 'Less than 500', end: 500 },
+      { label: 'Less than 100', end: 100 },
+      { label: 'Between 100 - 500', start: 100, end: 500 },
       { label: 'Between 500 - 1000', start: 500, end: 1000 },
-      { label: 'More than 1000', start: 1000 },
+      { label: 'Between 1000 - 1500', start: 1000, end: 1500 },
+      { label: 'More than 1500', start: 1500 },
     ],
   }),
   instantsearch.widgets.hits({
@@ -49,7 +51,6 @@ search.addWidgets([
     templates: {
       item: `
         <div>
-          <img src="{{image}}" align="left" alt="{{name}}" />
           <div class="hit-name">
             {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
           </div>
