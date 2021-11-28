@@ -14,6 +14,7 @@ search.addWidgets([
   instantsearch.widgets.refinementList({
     container: '#team-list', 
     attribute: 'team',
+    showMore: true,
   }),
   instantsearch.widgets.numericMenu({
     container: '#numeric-menu',
