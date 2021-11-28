@@ -4,12 +4,12 @@ _This project aims to help users to check facts on NBA such as player's name, te
 
 # Feedback For Algolia
 
-_I really like Algolia's website but I think it can still be improve:
+I really like Algolia's website but I think it can still be improve:
 
 1. For the link below, in the Requirements section the buttons dashboard and attributesForFaceting do not work (Error 404)
 https://www.algolia.com/doc/api-reference/widgets/refinement-list/js/?client=HTMLElement#about-this-widget
+A working link to my Attributes for faceting dashboard or a tutorial video could save Algolia's clients some time. 
 2. coming soon
-_
 
 ## Get started
 
