@@ -1,5 +1,4 @@
 /* global instantsearch algoliasearch */
-require("dotenv").config();
 
 // import algoliasearch from 'algoliasearch'
 
@@ -32,8 +31,8 @@ search.addWidgets([
     container: '#clear-refinements',
   }),
   instantsearch.widgets.refinementList({
-    container: '#brand-list',
-    attribute: 'brand',
+    container: document.querySelector('#team-list'), 
+    attribute: 'team',
   }),
   instantsearch.widgets.hits({
     container: '#hits',
@@ -56,5 +55,7 @@ search.addWidgets([
     container: '#pagination',
   }),
 ]);
+
+
 
 search.start();
