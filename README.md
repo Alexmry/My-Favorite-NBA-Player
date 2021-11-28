@@ -9,7 +9,7 @@ I really like Algolia's website but I think it can still be improve:
 1. The hyperlinks for "dashboard" and "attributesForFaceting" under the Requirements section in the following link do not work (Error 404)
 https://www.algolia.com/doc/api-reference/widgets/refinement-list/js/?client=HTMLElement#about-this-widget. A working link to my Attributes for faceting dashboard or a tutorial video could save Algolia's clients some time. 
 
-2. Navigation (UX) on Algolia's website can be a bit confusing for 1st time users. The "Widgets Showcase" page is great but it took me a while to come cross it and to switch it from React to JavaScript.
+2. Navigation (UX) on Algolia's website can be a bit confusing for 1st time users. The "Widgets Showcase" page is very helpful but not easy to come accross nor find the version adapted to the language of choice (i.e. React vs JavaScript).
 
 ## Get started
 
