@@ -1,22 +1,3 @@
-/* global instantsearch algoliasearch */
-
-// import algoliasearch from 'algoliasearch'
-
-// const client = algoliasearch('W1CE17ZMDH', '5bb6dc525c2b3c48c00dbb700cc98cf1')
-
-// const index = client.initIndex('demo_ecommerce')
-
-// fetch('https://alg.li/doc-ecommerce.json')
-//   .then(function(response) {
-//     return response.json()
-//   })
-//   .then(function(products) {
-//     return index.saveObjects(products, {
-//       autoGenerateObjectIDIfNotExist: true
-//     })
-//   })
-
-
 
 const search = instantsearch({
   indexName: 'test-nba-players',
@@ -70,3 +51,10 @@ search.addWidgets([
 
 
 search.start();
+
+
+function scrollTop(){
+  let scrollTop = document.getElementById('scroll-top')
+  if(this.scrollY >= 200) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollTop)
