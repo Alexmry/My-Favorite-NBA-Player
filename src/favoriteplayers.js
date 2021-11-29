@@ -16,7 +16,7 @@ function addItem(e) {
     items.push(item);
     populateList(items, itemsList);
 
-    // local storage for storing my favorite players
+    // local storage for storing my favorite players. We use stringify because items needs to be a string
     localStorage.setItem('items', JSON.stringify(items));
     
     this.reset();
@@ -34,7 +34,27 @@ function populateList (players = [], playersList) {
     }).join('');
 };
 
+// for storing flagged MVPs
+function toggleDone(e) {
+    // console.log(e.target);
+    // when we console log the even.target, we get back the input tag and the label tag
+    
+    // does the target matches what we are looking for => so we can isolate the inputs and get ride of the labels
+    if (!e.target.matches('input')) return; // skip this unless it's an input
+    const el = e.target;
+    // console.log(el.dataset.index); => give use the index of the corresponding item in the array
+    const index = el.dataset.index;
+    // to do the toogle, is items[index].done = true, we set it to the opposite so it become false
+    items[index].done = !items[index].done;
+    // Once the toggle is done, we save it again in our local storage
+    localStorage.setItem('items', JSON.stringify(items));
+    // And we run again the function populateList to update the list with the new value (that has just been toggled)
+    populateList(items, itemsList);
+}
+
 
 addItems.addEventListener('submit', addItem);
+
+itemsList.addEventListener('click', toggleDone);
 
 populateList(items, itemsList);
