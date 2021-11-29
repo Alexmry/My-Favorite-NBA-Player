@@ -7,7 +7,21 @@ const items = [];
 
 function addItem(e) {
     e.preventDefault();
-    console.log('hello');
-}
+    // console.log('hello');
+    const text = this.querySelector('[name=item]').value;
+    const item = {
+        text: text,
+        done: false
+    };
+    // console.log(item);
+    items.push(item);
+    this.reset();
+};
+
+function populateList () {
+
+};
+
+
 
 addItems.addEventListener('submit', addItem);
