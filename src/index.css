@@ -77,7 +77,7 @@ body {
 }
 
 .players input:checked + label:before {
-  content: "🌮";
+  content: "🏀";
 }
 
 .add-items {
