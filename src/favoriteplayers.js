@@ -15,13 +15,20 @@ function addItem(e) {
     };
     // console.log(item);
     items.push(item);
+    populateList(items, itemsList)
     this.reset();
 };
 
-function populateList () {
-
+function populateList (players = [], playersList) {
+    playersList.innerHTML = players.map((player, i) => {
+        return `
+            <li>
+                
+                <label for="item${i}">${player.text}</label>
+            </li>
+        `;
+    }).join('');
 };
-
 
 
 addItems.addEventListener('submit', addItem);
