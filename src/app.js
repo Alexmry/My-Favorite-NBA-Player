@@ -7,7 +7,7 @@ const search = instantsearch({
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    placeholder: 'Search a player, team or points',
+    placeholder: 'Search for a player, team or points',
   }),
   instantsearch.widgets.stats({
     container: "#stats",

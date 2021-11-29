@@ -3,6 +3,17 @@ body {
   padding: 1em;
 }
 
+html {
+  box-sizing: border-box;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
 .ais-ClearRefinements {
   margin: 1em 0;
 }
@@ -22,6 +33,7 @@ body {
 
 .right-panel {
   margin-left: 260px;
+  text-align: center;
 }
 
 .ais-InstantSearch {
