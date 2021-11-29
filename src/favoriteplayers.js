@@ -1,6 +1,7 @@
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.players');
-const items = JSON.parse(localStorage.getItem('items')) || [];
+const deletePlayers = document.querySelector('.delete-players');
+let items = JSON.parse(localStorage.getItem('items')) || [];
 
 
 // pushing user input (item) into and empty array (items)
@@ -52,9 +53,22 @@ function toggleDone(e) {
     populateList(items, itemsList);
 }
 
+function deleteItems(e) {
+    // console.log(e);
+    localStorage.clear();
+    items = [];
+    populateList(items, itemsList);
+};
+
+
 
 addItems.addEventListener('submit', addItem);
 
 itemsList.addEventListener('click', toggleDone);
+
+
+deletePlayers.addEventListener('click', deleteItems);
+
+
 
 populateList(items, itemsList);
