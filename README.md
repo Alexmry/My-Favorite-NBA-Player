@@ -2,6 +2,10 @@
 
 _This project aims to help users to check facts on NBA such as player's name, team or points_
 
+_The user can use various widgets (such as search bar, filter by team, filter by points, stats) to quickly find the informations he is looking for_
+
+_The user can list his favorite players and flag them as MVPs_
+
 # Feedback For Algolia
 
 I really like Algolia's website but I think it can still be improved:
