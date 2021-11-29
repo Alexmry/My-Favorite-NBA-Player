@@ -1,7 +1,6 @@
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.players');
-const items = [];
-// const items = JSON.parse(localStorage.getItem('items')) || [];
+const items = JSON.parse(localStorage.getItem('items')) || [];
 
 
 // pushing user input (item) into and empty array (items)
@@ -16,6 +15,10 @@ function addItem(e) {
     // console.log(item);
     items.push(item);
     populateList(items, itemsList);
+
+    // local storage for storing my favorite players
+    localStorage.setItem('items', JSON.stringify(items));
+    
     this.reset();
 };
 
@@ -33,3 +36,5 @@ function populateList (players = [], playersList) {
 
 
 addItems.addEventListener('submit', addItem);
+
+populateList(items, itemsList);
