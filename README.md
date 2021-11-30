@@ -4,7 +4,7 @@ _This project aims to help users to check facts on NBA such as player's name, te
 
 _The user can use various features (such as search bar, filter by team, filter by points, stats and pagination) to quickly find the informations he is looking for_
 
-_The user can list his favorite players and flag them as MVPs (the data are saved even after a refresh)_
+_The user can list his favorite players and flag them as MVPs (the data are saved even after a refresh but can be cleared by pressing the clear my list button)_
 
 # Feedback For Algolia
 
