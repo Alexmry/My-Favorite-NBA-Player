@@ -1,28 +1,3 @@
-Edited June 2020
-Reference @alicia-jasmine
-
-"React is purely a front-end framework. Everything accessible to React (even if you embed it through a build step) will later be visible in the front-end code and someone relatively basic to find. To really keep them secret you MUST have something server side!"
-
-The following answer will actually expose the key in the gh-page branch on GitHub, also the keys will be accessible through the network tab in the developer console.
-
-Original Answer
-I'm also using create-react-app, and I found that this can be done by customizing your CI script with GitHub secret settings. (After the setting, you can use environment variables like this in your project.)
-
-const apiKey = process.env.REACT_APP_APIKey
-const apiSecret = process.env.REACT_APP_APISecret
-To add a secret to your repository, go to your repository's Setting > Secrets, click on Add a new secret. In the screenshot below, I added 2 env variables: REACT_APP_APIKey and REACT_APP_APISecret.
-
-Notice: All the environment variable you want to access with create-react-app need to be prefixed with REACT_APP.
-
-enter image description here
-
-After you have your secret ready, you can take a look at this post, it's about how to add your own Action upon push.
-
-To setup your action script, go to your repository > Actions, an click on Setup workflow your self, and paste in the script provided in the post or take a look at mine script below.
-
-enter image description here
-
-I use the following script to access the 2 environment variables I set on GitHub secret. (You can access the secret you set in the script by ${{ secrets.REACT_APP_APIKey }}.)
 
 name: CI
 
@@ -54,4 +29,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: dist
