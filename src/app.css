@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   padding: 1em;
-  /* background-color: blue; */
+  background-color: #F7F7F7;
 }
 
 html {
@@ -47,6 +47,8 @@ html {
   margin-bottom: 1em;
   width: calc(50% - 1rem);
   background: linear-gradient(to left, red, blue);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 8px;
 }
 
 .ais-Hits-item img {
