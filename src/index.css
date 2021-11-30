@@ -92,7 +92,7 @@ body {
 .delete-players {
   margin-top: 3rem;
   margin-left: 34px;
-  background-color: #d30909; /* Green */
+  background-color: #FF5151; /* Green */
   border: none;
   color: white;
   padding: 12px 28px;
@@ -101,4 +101,5 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  border-radius: 5px;
 }
