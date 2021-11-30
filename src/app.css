@@ -51,7 +51,8 @@ html {
 .right-panel {
   margin-left: 260px;
   text-align: center;
-  width: 700px;
+  width: 660px;
+  padding-right: 8px;
 }
 
 .ais-InstantSearch {
@@ -61,7 +62,7 @@ html {
 }
 
 .ais-Hits-item {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   width: calc(50% - 1rem);
   background: linear-gradient(to left, red, blue);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
