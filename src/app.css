@@ -15,6 +15,17 @@ html {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+#main-titles {
+  background-color: red;
+  background-image: linear-gradient(to left, red, blue);
+  background-size: 40%;
+  /* background-repeat: repeat; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 .ais-ClearRefinements {
   margin: 1em 0;
 }
