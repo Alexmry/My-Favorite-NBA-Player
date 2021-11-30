@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 const search = instantsearch({
   indexName: 'test-nba-players',
