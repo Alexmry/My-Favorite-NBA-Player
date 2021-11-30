@@ -94,5 +94,18 @@ html {
   color:aliceblue;
 }
 
-/*========== neon-button ==========*/
+/* #clear-refinements {
+  background-color: linear-gradient(to left, red, blue);
+} */
+
+/* #pagination {
+  background-color: white;
+  background-image: linear-gradient(to left, red, blue);
+  background-size: 50%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+} */
 
