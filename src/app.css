@@ -15,10 +15,15 @@ html {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+.logo {
+  height: 60px;
+  margin-top: 2rem;
+}
+
 #main-titles {
   background-color: red;
   background-image: linear-gradient(to left, red, blue);
-  background-size: 40%;
+  background-size: 50%;
   /* background-repeat: repeat; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -80,4 +85,6 @@ html {
 .hit-points {
   color:aliceblue;
 }
+
+/*========== neon-button ==========*/
 

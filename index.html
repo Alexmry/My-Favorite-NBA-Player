@@ -25,7 +25,10 @@
 
   <body>
     <div class="ais-InstantSearch">
-      <h1 id='main-titles' style="margin-top: 3rem;">My Favorite NBA Player</h1>
+      <div style="display: flex;">
+        <h1 id='main-titles' style="margin-top: 3rem;">My Favorite NBA Player</h1>
+        <img src="NBAlogo.png" class="logo">
+      </div>
 
       <div class="left-panel" style="margin-top: 24px;">
         <div id="clear-refinements"></div>
@@ -44,7 +47,7 @@
           </ul>
           <form class="add-items">
             <input type="text" name="item" placeholder="Player's Name" required>
-            <input type="submit" value="  Add  " style="background-color: #4CAF50;">
+            <input type="submit" value="  Add  " class="neon-button">
           </form>
           <button type="button" class="delete-players">Clear my list</button>
         </div>
