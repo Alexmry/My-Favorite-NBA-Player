@@ -1,5 +1,7 @@
 # About This App
 
+_Please click the following link to access the app => https://alexmry.github.io/My-Favorite-NBA-Player/_
+
 _This project aims to help users to check facts on NBA such as player's name, team or points_
 
 _The user can use various features (such as search bar, filter by team, filter by points, stats and pagination) to quickly find the informations he is looking for_
