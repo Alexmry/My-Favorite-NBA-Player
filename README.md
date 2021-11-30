@@ -10,7 +10,7 @@ _The user can list his favorite players and flag them as MVPs (the data are save
 
 # Feedback For Algolia
 
-I really like Algolia's website as it enable me to build out my search engine thanks to its details documentation. However, I think it can still be improved:
+I really like Algolia's website as it has enabled me to build out my search engine thanks to its detailed documentation. However, I think it can still be improved:
 
 1. The hyperlinks for "dashboard" and "attributesForFaceting" under the Requirements section in the following link do not work (Error 404)
 https://www.algolia.com/doc/api-reference/widgets/refinement-list/js/?client=HTMLElement#about-this-widget. A working link to my Attributes for faceting dashboard or a tutorial video could save Algolia's clients some time. 
