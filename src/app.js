@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const search = instantsearch({
   indexName: 'test-nba-players',
-  searchClient: algoliasearch(process.env.applicationid, process.env.ALGOLIA_API_KEY),
+  searchClient: algoliasearch(process.env.APPLICATIONID, process.env.ALGOLIA_API_KEY),
 });
 
 search.addWidgets([
