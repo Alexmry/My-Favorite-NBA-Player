@@ -134,13 +134,10 @@ html {
   background-position: bottom left;
   background-size: 0% 3px;
   transition: background-size 500ms ease-in-out;
-
-  /* extra styling   */
   font-weight: 16px;
 }
 
 .fancy-paragraph:hover {
-  margin-top: 3px;
   background-size: 100% 6px;
   background-position: bottom 10px;
   color: inherit;
