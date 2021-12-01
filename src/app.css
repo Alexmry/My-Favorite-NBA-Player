@@ -24,7 +24,7 @@ html {
   background-color: red;
   background-image: linear-gradient(to left, red, blue);
   background-size: 50%;
-  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
@@ -109,3 +109,15 @@ html {
   -moz-text-fill-color: transparent;
 } */
 
+/*========== refinementList ==========*/
+
+#team-list {
+  accent-color: #EB5E13;
+  color: #EB5E13;
+}
+
+/*========== numeric-menu ==========*/
+
+#numeric-menu {
+  accent-color: #EB5E13;
+}
