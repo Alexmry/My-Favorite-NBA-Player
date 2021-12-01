@@ -94,26 +94,29 @@ html {
   color:aliceblue;
 }
 
-/* #clear-refinements {
-  background-color: linear-gradient(to left, red, blue);
-} */
 
-/* #pagination {
-  background-color: white;
-  background-image: linear-gradient(to left, red, blue);
-  background-size: 50%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-} */
+/*========== ClearRefinements-button ==========*/
 
-/*========== refinementList ==========*/
+.ais-ClearRefinements-button {
+  background-color: #EB5E13;
+}
+
+.ais-ClearRefinements-button:hover {
+  background-color: #750B9C;
+}
+
+/*========== refinementList - Team button show more ==========*/
 
 #team-list {
   accent-color: #EB5E13;
-  color: #EB5E13;
+}
+
+.ais-RefinementList-showMore {
+  background-color: #EB5E13;
+}
+
+.ais-RefinementList-showMore:hover {
+  background-color: #750B9C;
 }
 
 /*========== numeric-menu ==========*/
