@@ -97,6 +97,7 @@ body {
 
 #add-player-button {
   background: linear-gradient(to left, red, blue); 
-  border-radius: 5px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
   color:#FFF;
 }
