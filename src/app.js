@@ -44,7 +44,7 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item: `
-        <div>
+        <div class="ais-Hits-item-module">
           <div class="hit-name">
             {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
           </div>

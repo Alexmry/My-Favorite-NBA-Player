@@ -66,6 +66,13 @@ html {
   width: calc(50% - 1rem);
   background: linear-gradient(to left, red, blue);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 12px;
+}
+
+.ais-Hits-item-module {
+  margin: -12px;
+  background: white;
+  padding: 1rem;
   border-radius: 8px;
 }
 
@@ -81,7 +88,7 @@ html {
 
 .hit-name {
   margin-bottom: 0.5em;
-  color:aliceblue;
+  color:back;
 }
 
 .hit-description {
@@ -91,7 +98,7 @@ html {
 }
 
 .hit-points {
-  color:aliceblue;
+  color:back;
 }
 
 
