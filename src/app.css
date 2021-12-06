@@ -149,3 +149,9 @@ html {
   background-position: bottom 10px;
   color: inherit;
 }
+
+/*========== pagination ==========*/
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+  background-color: #EB5E13;
+}
