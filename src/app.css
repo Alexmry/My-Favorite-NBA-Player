@@ -158,8 +158,14 @@ html {
 
 .ais-Pagination-item--selected .ais-Pagination-link {
   background-color: #EB5E13;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
+.ais-Pagination-link {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
 
 
 /*========== media queries ==========*/
