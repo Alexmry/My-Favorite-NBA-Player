@@ -61,6 +61,7 @@ html {
   max-width: 960px;
   overflow: hidden;
   margin: 0 auto;
+  font-family: montserrat;
 }
 
 .ais-Hits-item {
@@ -118,6 +119,7 @@ html {
 
 #team-list {
   accent-color: #EB5E13;
+  /* font-weight: bold; */
 }
 
 .ais-RefinementList-showMore {
