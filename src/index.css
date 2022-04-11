@@ -94,6 +94,7 @@ body {
   display: inline-block;
   font-size: 14px;
   border-radius: 5px;
+  font-family: montserrat;
 }
 
 #add-player-button {
@@ -101,4 +102,5 @@ body {
   background-repeat: no-repeat;
   border-radius: 8px;
   color:#FFF;
+  font-family: montserrat;
 }
